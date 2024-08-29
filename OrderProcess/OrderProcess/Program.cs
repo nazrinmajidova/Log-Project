@@ -4,7 +4,7 @@ using OrderProcess.Models;
 using OrderProcess;
 
 
- // Setup Dependency Injection
+
  var serviceProvider = new ServiceCollection()
      .AddLogging(config =>
      {
@@ -14,7 +14,7 @@ using OrderProcess;
      .AddTransient<OrderProcessor>()
      .BuildServiceProvider();
 
- // Create a logger
+
  var logger = serviceProvider.GetService<ILogger<Program>>();
 
  logger.LogInformation("Application started.");
@@ -23,7 +23,7 @@ using OrderProcess;
  var orders = new List<Order>
  {
      new Order { Id = 1, CustomerName = "Leyla", Amount = 50 },
-     new Order { Id = 2, CustomerName = "Ehmed", Amount = 0 }, // Wrong order
+     new Order { Id = 2, CustomerName = "Ehmed", Amount = 0 }, 
      new Order { Id = 3, CustomerName = "Cavidan", Amount = 150 }
  };
 

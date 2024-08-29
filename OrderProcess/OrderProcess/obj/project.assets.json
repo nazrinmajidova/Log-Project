@@ -845,11 +845,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Back-End\\OrderProcess\\OrderProcess\\OrderProcess.csproj",
+      "projectUniqueName": "C:\\Users\\Lenovo\\Desktop\\Log-Project\\OrderProcess\\OrderProcess\\OrderProcess.csproj",
       "projectName": "OrderProcess",
-      "projectPath": "D:\\Back-End\\OrderProcess\\OrderProcess\\OrderProcess.csproj",
+      "projectPath": "C:\\Users\\Lenovo\\Desktop\\Log-Project\\OrderProcess\\OrderProcess\\OrderProcess.csproj",
       "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-      "outputPath": "D:\\Back-End\\OrderProcess\\OrderProcess\\obj\\",
+      "outputPath": "C:\\Users\\Lenovo\\Desktop\\Log-Project\\OrderProcess\\OrderProcess\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
